@@ -2,12 +2,13 @@
 <html>
 
 <head>
+    <title>Vanaheim</title>
     <style>
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            color: white;
+            color: black;
         }
 
         #hikaye {
@@ -34,15 +35,8 @@
         }
 
         .fakeimg img {
-            border: 5px solid white;
+            border: 5px solid #333;
             border-radius: 4px;
-        }
-
-        #genel {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(vanaheimbg2.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 100%;
         }
 
         #p {
@@ -53,21 +47,27 @@
 
         body {
             font-family: Arial;
+            background: #f1f1f1;
         }
 
         .header {
             padding: 30px;
             text-align: center;
+            background:white;
+            height:130px;
+
         }
 
         .header h1 {
             font-size: 50px;
+            color:#333;
         }
 
 
         .topnav {
             overflow: hidden;
-            margin-top: 20px;
+            margin-top: 0px;
+            background-color: #333;
 
         }
 
@@ -79,6 +79,7 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            
         }
 
 
@@ -119,7 +120,9 @@
             padding: 20px;
             text-align: center;
             margin-top: 20px;
+            background:#ddd;
         }
+        h3,h1,h2,h4,h5,h6{color:#333}
 
 
         @media screen and (max-width: 800px) {
@@ -139,7 +142,7 @@
 </head>
 
 <body>
-    <div id="genel">
+    
         <div id="logo" style="height:100px;"><a href="vanaheim.html"><img
                     src="https://static.wikia.nocookie.net/godofwar/images/4/4a/Vanaheim.png/revision/latest?cb=20180608143900"
                     alt="logo" width="100px" height="100px"></a></div>
@@ -150,9 +153,8 @@
         <div class="topnav">
             <a href="#">Anasayfa</a>
             <a href="#">Hakkımızda</a>
-            <a href="#">İletişim</a>
             <a href="https://store.playstation.com/tr-tr/product/EP9000-CUSA34386_00-GOWRAGNAROK00000" target="_blank"
-                style="float:right">Şimdi Satın Al</a>
+                >Satın Al</a>
         </div>
 
         <div class="row">
@@ -220,7 +222,7 @@
         <div class="footer">
             <h6>Copyright © Ozan Gün 2022. Tüm hakları saklıdır.</h6>
         </div>
-    </div>
+    
 </body>
 
 </html>
